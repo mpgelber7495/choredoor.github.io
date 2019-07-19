@@ -116,7 +116,7 @@ function gameOver(status) {
   if(status === 'win') {
     startButton.innerHTML = 'You win! Play again?';
   } else {
-    startButton.innerHTML = 'Game over! Play again?';
+    startButton.innerHTML = 'Laura wins! Play again?';
     destructionMode()
   }
   currentlyPlaying = false;
