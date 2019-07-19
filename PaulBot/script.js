@@ -2,11 +2,11 @@ let doorImage1 = document.getElementById('door1');
 let doorImage2 = document.getElementById('door2');
 let doorImage3 = document.getElementById('door3');
 
-let botDoorPath = "https://i.imgur.com/5FWCxaJ.jpg"
+let botDoorPath = "https://i.imgur.com/e1VdOWi.png"
 
-let beachDoorPath = "https://i.imgur.com/Ia1Hgm3.png" 
+let beachDoorPath = "https://i.imgur.com/O2vpz2G.png" 
 
-let spaceDoorPath = "https://i.imgur.com/BgldMNg.png" 
+let spaceDoorPath = "https://i.imgur.com/O2vpz2G.png" 
 
 let numClosedDoors = 3
 
