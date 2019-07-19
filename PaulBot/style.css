@@ -61,4 +61,10 @@ body {
 .door-frame {
   cursor: pointer;
   padding: 10px;
+  transform: perspective(1px) translateZ(0);
+  transition-duration: .5s;
+}
+.door-frame:hover {
+  transform: scale(0.85);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
