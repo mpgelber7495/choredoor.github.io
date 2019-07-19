@@ -8,6 +8,8 @@ let beachDoorPath = "https://i.imgur.com/O2vpz2G.png"
 
 let spaceDoorPath = "https://i.imgur.com/O2vpz2G.png" 
 
+let lauraPicPath = "https://i.imgur.com/2ONiyp2.png"
+
 let numClosedDoors = 3
 
 var openDoor1;
@@ -89,6 +91,12 @@ doorImage3.onclick = () => {
   }
 }
 
+function destructionMode () {
+  doorImage1.src = lauraPicPath;
+  doorImage2.src = lauraPicPath;
+  doorImage3.src = lauraPicPath;
+}
+
 function startRound() {
   doorImage1.src = closedDoorPath;
   doorImage2.src = closedDoorPath;
@@ -109,6 +117,7 @@ function gameOver(status) {
     startButton.innerHTML = 'You win! Play again?';
   } else {
     startButton.innerHTML = 'Game over! Play again?';
+    destructionMode()
   }
   currentlyPlaying = false;
 }
