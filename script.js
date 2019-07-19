@@ -4,9 +4,9 @@ let doorImage3 = document.getElementById('door3');
 
 let botDoorPath = "https://i.imgur.com/5FWCxaJ.jpg"
 
-let beachDoorPath = "https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/beach.svg"
+let beachDoorPath = "https://i.imgur.com/Ia1Hgm3.png" 
 
-let spaceDoorPath = "https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/space.svg"
+let spaceDoorPath = "https://i.imgur.com/BgldMNg.png" 
 
 let numClosedDoors = 3
 
