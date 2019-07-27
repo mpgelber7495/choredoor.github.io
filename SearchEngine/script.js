@@ -17,7 +17,6 @@ function showResponse () {
 
 
 
-
 googleSearch.onclick = () => {
 
   let searchValue = document.getElementById('form-search').value;
