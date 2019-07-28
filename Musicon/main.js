@@ -38,9 +38,15 @@ const context = {
       name: 'Eric Przedpelski',
       description: 'You might as well call it the Sexophone. Eric truly seduces each and every audience member at TYSO shows with his massive, gorgeous horn.',
       price: 'Saxophone',
-      
+
     }
 
+  ],
+  contents: [
+    {
+      link: "https://www.youtube.com/watch?v=LjHv-a9wZWY",
+      title: 'Naw Naw Music Video',
+    }
   ]
 };
 
