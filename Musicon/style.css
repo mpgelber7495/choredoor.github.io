@@ -28,6 +28,18 @@ header {
 .container {
   width: 90%;
   margin: 0 auto;
+
+
+}
+
+.container p {
+  font-size: 50px;
+  color: #19A67C;
+
+}
+
+.container h1 {
+  text-shadow: 8px 2px #ff0000;
 }
 
 .branding {
@@ -166,10 +178,10 @@ nav {
 }
 
 .logo{
-  
+  background: url("https://i.imgur.com/jmPXKrw.png") no-repeat center;
+  height: 250px;
+  width: 100vw;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 40%;
   opacity: 0.6;
 }
