@@ -72,6 +72,12 @@ nav {
   color: #ffffff;
 }
 
+.player {
+  display: flex;
+  justify-content: center;
+
+}
+
 /* Home Page Rulesets */
 
 #introduction {
@@ -178,9 +184,13 @@ nav {
 }
 
 .logo{
+<<<<<<< HEAD
   background: url("https://i.imgur.com/jmPXKrw.png") no-repeat center;
   height: 250px;
   width: 100vw;
+=======
+
+>>>>>>> cfa5f7f33a29b128a0c1149177a3a8524109c3f2
   display: block;
   width: 40%;
   opacity: 0.6;
