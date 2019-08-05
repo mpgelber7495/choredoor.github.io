@@ -43,6 +43,11 @@ header {
   display: flex;
 }
 
+.follow-button{
+  background: rgba(255,255,255,0.3)
+  
+}
+
 .branding {
   float: left;
 }
@@ -53,19 +58,21 @@ nav {
 }
 
 
-.navbar {
+.nav-bar {
   margin-top: 5%;
   display: flex;
   flex-direction: row;
 }
 
-.navbar li {
+
+
+.nav-bar li {
   display: flex;
 
   padding: 0 5px;
 }
 
-.navbar li a:hover, .navbar .current a {
+.nav-bar li a:hover, .nav-bar .current a {
   color: #cb6ea5;
 }
 
@@ -80,8 +87,9 @@ nav {
   border: 1px dashed gold;
   padding: 5%;
   margin: 20px;
+  text-align: center;
   display: flex;
-  flex-direction: row;;
+  flex-direction: row;
   justify-content: space-between;
   background: rgba(192,192,192, 0.3);
 
@@ -103,6 +111,35 @@ nav {
 }
 
 /*Home Page Rulesets */
+
+
+
+/*contact page rulesets */
+.contact-info{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.contact-icon {
+  width: 75px;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 3px;
+  border-color: pink;
+}
+
+.contact-info a {
+  margin: auto;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 
 #logoImage{
   padding: 2%;
