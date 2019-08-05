@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Take Your Shoes Off</title>
+    <link href ="./style.css" rel = "stylesheet" type = "text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js" integrity="sha256-ngJY93C4H39YbmrWhnLzSyiepRuQDVKDNCWO2iyMzFw=" crossorigin="anonymous"></script>
+    <script id="templateHB" type="text/x-handlebars-template">
+      {{#each contents}}
+
+          <h1>{{this.title}}</h1>
+          <iframe {{this.link}}></iframe>
+
+      <h1>{{title}}</h1>
+      <p>{{body}}</p>
+      <a href ="store.html">Band Members</a>
+    </script>
+
+    <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  </head>
+
+<body>
+
+  <header>
+    <section class="container">
+      <h1 class="branding">Take Your Shoes Off</h1>
+
+      <nav>
+        <ul class="navbar">
+          <li>
+            <a href = "index.html">Home</a>
+          </li>
+          <li  class = "current">
+            <a href = "content.html">Content</a>
+          </li>
+          <li>
+            <a href = "merch.html">Merch</a>
+          </li>
+          <li>
+            <a href = "theband.html">The Band</a>
+          </li>
+          <li>
+            <a href = "social.html">Social</a>
+          </li>
+          <li>
+            <a href = "contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+
+  </header>
+
+
+
+  <article>
+  <div>
+    <h1 class = "content-title">Videos</h1>
+  </div>
+
+  <div class = "youtube">
+    <section>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/LjHv-a9wZWY" style="border:5px solid black;" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section class = "vid-text">
+      <h2>Naw Naw</h2>
+      <a class="vid-description">"Naw Naw" is TYSO's first single.</a>
+
+    </section>
+  </div>
+
+  <div>
+    <h1 class = "content-title">Songs</h1>
+    <article class="intromedia">
+      <iframe src="https://open.spotify.com/embed/track/2TtOmv0cq5LwlRJPlU0nB6" align="middle" width="360" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </article>
+  </div>
+
+
+
+  <div>
+    <h1 class = "content-title">Photos</h1>
+  </div>
+<!--This is the code for the gallery-->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="https://i.imgur.com/neg86DC.png" alt="Los Angeles">
+      </div>
+
+      <div class="item">
+        <img src="https://i.imgur.com/Qywfior.png" alt="Chicago">
+      </div>
+
+      <div class="item">
+        <img src="https://i.imgur.com/Ggi3vmZ.png" alt="New York">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  </article>
+
+</body>
+
+<footer>
+  <p>&copy; Take Your Shoes Off 2021</p>
+  <script src="./main.js"></script>
+</footer>
+</html>
