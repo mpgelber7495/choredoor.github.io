@@ -3,8 +3,6 @@ const templateSource = templateElement.innerHTML;
 const template = Handlebars.compile(templateSource);
 
 const context = {
-  title: 'Take Your Shoes Off',
-  body: 'Take Your Shoes Off (TYSO) is a popular Manhattan based band. They\'re known for playing at hot spots around lower Manhattan such as The Red Lion, The Bowery Electric, The Delancey, The Bitter End, Piano\'s, Willie McBrides, M1-5, Session 73 and... you guessed it - Thee Parker House. Come along and rock out with your socks out!!',
   instruments: [
     {
       image: 'https://i.imgur.com/uxIJFBp.png',
@@ -44,7 +42,8 @@ const context = {
   ],
   contents: [
     {
-      link: "https://www.youtube.com/watch?v=LjHv-a9wZWY",
+      id: "video",
+      link: " width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/LjHv-a9wZWY\" style=\"border:5px solid purple;\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen",
       title: 'Naw Naw Music Video',
     }
   ]
