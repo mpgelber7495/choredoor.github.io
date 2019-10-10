@@ -250,4 +250,10 @@ nav {
 .merch-link {
   font-size: 20px;
   padding-top: 10px;
+  font-family: 'Yellowtail', cursive;
+}
+
+
+.merch-link a:hover {
+  color: #cb6ea5;
 }
