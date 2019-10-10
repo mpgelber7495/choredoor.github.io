@@ -175,6 +175,10 @@ nav {
 }
 
 
+#merchHeader {
+  font-family: 'Yellowtail', cursive;
+}
+
 #navBarHeader {
   font-size: 90px;
 }
@@ -226,4 +230,24 @@ nav {
 
 #introduction a:hover {
   background-color: #8B008B;
+}
+
+
+
+
+/*merch page rules*/
+.merch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.merch img {
+  width: 275px;
+  height: 300px;
+}
+
+.merch-link {
+  font-size: 20px;
+  padding-top: 10px;
 }
